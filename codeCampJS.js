@@ -16,3 +16,11 @@ console.log(output);
 // Run the tests to see the difference between the two consoles.
 
 // Now, add console.clear() before your console.log() to clear the browser console, and pass the tests.
+
+//----------
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+// Only change code below this line
+console.log(typeof seven);
+console.log(typeof three);
