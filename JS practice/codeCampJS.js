@@ -24,3 +24,55 @@ console.log(seven + three);
 // Only change code below this line
 console.log(typeof seven);
 console.log(typeof three);
+//----------
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);
+
+//----------
+let myArray = [1, 2, 3];
+const reducer = (accumulator, currentValue) => accumulator + currentValue;
+
+let arraySum = myArray.reduce(reducer);
+console.log(`Sum of array values is: ${arraySum}`);
+
+//----------
+let innerHtml = '<p>Click here to <a href="#Home">return home</a></p>';
+console.log(innerHtml);
+//OR
+let innerHtml = '<p>Click here to <a href="#Home">return home</a></p>';
+console.log(innerHtml);
+
+//----------
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if (x == y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
