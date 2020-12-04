@@ -9,8 +9,14 @@ function depositProfit(deposit, rate, threshold) {
   return year;
 }
 
-//-----------------
+//-----------------Day 3
+function chunkyMonkey(values, size) {
+  let newArr = values.splice(size);
+  return [values, newArr];
+}
 
+chunkyMonkey(["a", "b", "c", "d"], 2);
+chunkyMonkey([0, 1, 2, 3, 4, 5], 4);
 //-----------------
 
 //-----------------
