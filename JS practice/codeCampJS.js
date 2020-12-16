@@ -536,6 +536,70 @@ largestOfFour([
   [1000, 1001, 857, 1],
 ]);
 //----------
+//Check if a string (first argument, str) ends with the given target string (second argument, target).
+function confirmEnding(str, target) {
+  return str.slice(str.length - target.length) === target;
+}
+
+/* could be done with 
+function confirmEnding(str, target) {
+  return str.endsWith(target)
+}
+*/
+confirmEnding("Bastian", "n");
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
+
+//----------
 
 //----------
 
