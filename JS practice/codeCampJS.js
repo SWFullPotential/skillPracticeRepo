@@ -572,11 +572,7 @@ function truncateString(str, num) {
   }
   return truncStr;
 }
-
-truncateString(
-  "A-tisket a-tasket A green and yellow basket",
-  "A-tisket a-tasket A green and yellow basket".length
-);
+truncateString("A-tisket a-tasket A green and yellow basket", 8);
 //----------
 
 //----------
