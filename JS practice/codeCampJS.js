@@ -633,6 +633,23 @@ function bouncer(arr) {
 }
 */
 //----------
+//Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
+
+function getIndexToIns(arr, num) {
+  arr.sort(function (a, b) {
+    return a - b;
+  });
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] >= num) return i;
+  }
+  return arr.length;
+}
+
+getIndexToIns([2, 5, 10], 15);
+getIndexToIns([40, 60], 50);
+getIndexToIns([5, 3, 20, 3], 5);
+getIndexToIns([10, 20, 30, 40, 50], 35);
+getIndexToIns([10, 20, 30, 40, 50], 30);
 
 //----------
 
