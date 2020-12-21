@@ -769,7 +769,18 @@ for (let property in canary) {
 
 console.log(ownProps);
 //----------
+//Add a numLegs property to the prototype of Dog
 
+function Dog(name) {
+  this.name = name;
+}
+
+Dog.prototype.numLegs = 4;
+//All instances automatically have the properties on the prototype, so anytime a new instance is created you can call .numLegs and it will have this property.
+
+// Only change code above this line
+let beagle = new Dog("Snoopy");
+console.log(beagle.numLegs);
 //----------
 
 //----------
