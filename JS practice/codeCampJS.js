@@ -681,8 +681,12 @@ chunkArrayInGroups(["a", "b", "c", "d"], 2);
 // Note that this for loop does not loop through arr. Instead, we are using the loop to generate numbers we can use as indices to slice the array in the right locations.
 // Inside our loop, we create each chunk using arr.slice(i, i+size), and add this value to arr2 with arr2.push().
 // Finally, we return the value of arr2.
-//----------
-
+//---------- Object Oriented Programming: Create a Basic JavaScript Object
+let dog = {
+  name: "Andy",
+  numLegs: 4,
+};
+//Create a dog object with name and numLegs properties, and set them to a string and a number, respectively.
 //----------
 
 //----------
