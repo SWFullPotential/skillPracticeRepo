@@ -720,7 +720,14 @@ let dog = {
 
 dog.sayLegs();
 //----------
+//Constructors are functions that create new objects. They define properties and behaviors that will belong to the new object. Think of them as a blueprint for the creation of new objects.
+//Create a constructor, Dog, with properties name, color, and numLegs that are set to a string, a string, and a number, respectively.
 
+function Dog() {
+  this.name = "Andy";
+  this.color = "Brown";
+  this.numLegs = 4;
+}
 //----------
 
 //----------
